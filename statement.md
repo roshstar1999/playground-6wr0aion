@@ -1,11 +1,10 @@
-# Welcome!
+#to find one's complement
 
-This Python template lets you get started quickly with a simple one-page playground.
-
-```python runnable
-print('Hello World!')
-```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
+num=5
+temp=num
+bit=1
+while temp:
+    num=num^bit #Xoring 1 with each bit once in a loop
+    bit<<=1     
+    temp>>= 1
+print(num)
