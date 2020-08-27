@@ -1,6 +1,7 @@
 #to find one's complement
 
 num=5
+
 temp=num
 
 bit=1
